@@ -1,6 +1,3 @@
-// Paste into p5.js Web Editor
-// - Upload: your-image.png, song1.mp3, song2.mp3, song3.mp3, song4.mp3, song5.mp3
-
 let songs = [];
 let nextSoundIndex = 1; // each click plays songs[nextSoundIndex], cycles 1..songs.length-1
 let fft, amplitude;
